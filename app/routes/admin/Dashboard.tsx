@@ -60,9 +60,7 @@ const Dashboard = ({loaderData}: Route.ComponentProps) => {
             />
           ))}
         </div>
-      </section>
-      
-      Dashboard page Contents
+      </section>      
     </main>
   );
 };
