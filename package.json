@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "react-router build",
-    "dev":  "react-router dev NODE_OPTIONS='--import ./instrument.server.mjs'",
-    "start": "react-router-serve ./build/server/index.js NODE_OPTIONS='--import ./instrument.server.mjs'",
+    "dev":  "react-router dev ",
+    "start": "react-router-serve ./build/server/index.js ",
     
     "typecheck": "react-router typegen && tsc"
   },
